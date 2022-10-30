@@ -13,12 +13,12 @@ body {
 .container img {
     width: 100%;
 }
-.container .more_inf {
+.container .details {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.container { text-align: center;
 }
 }
 .centered-main-page-element {
