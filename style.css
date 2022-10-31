@@ -5,30 +5,22 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.container {
+.matrix-container {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.container img {
+.matrix-container img {
     width: 100%;
 }
 
-.container .details {
+#details {
     font-family: fantasy, cursive;
 }
 
-@media (max-width: 768px) {
-
-.container { 
-    text-align: center;
-}
-
-}
-
-.centered-main-page-element {
+.main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -167,4 +159,12 @@ ul li.editMode input[type=text] {
 
 ul li.editMode label {
     display: none;
+}
+
+@media (max-width: 768px) {
+
+    .matrix-container { 
+        text-align: center;
+    }
+
 }
